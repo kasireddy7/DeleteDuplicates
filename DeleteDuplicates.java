@@ -45,7 +45,7 @@ public class DeleteDuplicates {
 		// uniqueArrayUsingList will have unique values with out changing the
 		// input order.
 		Integer[] uniqueArrayUsingList = deDup.removeDuplicatesUsingList();
-		System.out.println("Result::Same order using List::::::::::" + Arrays.toString(uniqueArrayUsingList));
+		System.out.println("Result::Same order using TEST List::::::::::" + Arrays.toString(uniqueArrayUsingList));
 		// uniqueArrayUsingSet will have unique values but order not guarantee
 		Integer[] uniqueArrayUsingSet = deDup.removeDuplicatesUsingSet();
 		System.out.println("Result::Order not guarantee using Set::" + Arrays.toString(uniqueArrayUsingSet));
